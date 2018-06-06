@@ -1,0 +1,10 @@
+Started by user [8mha:////4PVO/4BuXBVZOzl2J5Tmm4MY5awBIu//AI8fAb5napjzAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZe/dLi1CL90rzsvPzyPACFlOLawgAAAA==[0manonymous
+Building on master in workspace /var/lib/jenkins/workspace/mybackup2
+[mybackup2] $ /bin/sh -xe /tmp/jenkins3486774192254910550.sh
++ cd /root/.ssh/
++ rm -rf known_hosts
++ touch known_hosts
++ =ssh-keyscan -t rsa 18.188.3.211
+/tmp/jenkins3486774192254910550.sh: line 5: =ssh-keyscan: command not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

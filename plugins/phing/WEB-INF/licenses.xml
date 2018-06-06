@@ -1,0 +1,5 @@
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='phing' version='0.13.3'>
+  <l:dependency name='Jenkins Phing plugin' groupId='org.jenkins-ci.plugins' artifactId='phing' version='0.13.3' url='https://wiki.jenkins-ci.org/display/JENKINS/Phing+Plugin'>
+    <l:description>This plugin allows you to use phing to build PHP projects.</l:description>
+  </l:dependency>
+</l:dependencies>

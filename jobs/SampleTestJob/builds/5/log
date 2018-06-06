@@ -1,0 +1,12 @@
+Started by upstream project "[8mha:////4BAvSvP8LaCSbZictCh96y2jE/w5x7ItJtGcbmxRqmegAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZR/az8JP3gxNyCnFSX1IKc/EovIB8AUjFjYMoAAAA=[0mSampleDeployJob" build number [8mha:////4KZD7D7noROV55wCrKqBv03PLzY6TeX7pF0oWXfjWd4UAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBjH9rPwk/eDE3IKcVJfUgpz8Si8g3xQAd7GmHcsAAAA=[0m5
+originally caused by:
+ Started by upstream project "[8mha:////4OyMqGeT+VOwTXiBsFhdINBRd2tseFy48W6lCOcg4zEVAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JP3gxNyCnFSn0sycFC8gFwCmIcYpyQAAAA==[0mSampleBuildJob" build number [8mha:////4KRswHvcncW9Omi8K22OlVcZJ7baRN1ERY2yGcQuS712AAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBlH9rPwk/eDE3IKcVKfSzJwULyDXBAAb0Fk5ygAAAA==[0m4
+ originally caused by:
+  Started by user [8mha:////4Lr5/h/tBYCUNO8tn1hCAqI+ao0MfE4g4qnEBd7Cd18UAAAAlB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYO/dLi1CL9xCwARX5Y4b0AAAA=[0majay
+Building remotely on [8mha:////4KcTQKQhwsUlwgaCnlKrhmzFFmODrS4qznRgpba5CVC9AAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/TygO40AumLp3sQAAAA=[0mnode2 (build_machine_centos) in workspace /var/lib/jenkins/workspace/SampleTestJob
+[SampleTestJob] $ /bin/sh -xe /tmp/jenkins1021990285678846667.sh
++ date
+Tue May 29 09:16:48 UTC 2018
++ echo 'test job successfully'
+test job successfully
+Finished: SUCCESS

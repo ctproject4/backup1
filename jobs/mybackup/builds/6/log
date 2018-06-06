@@ -1,0 +1,42 @@
+Started by user [8mha:////4PVO/4BuXBVZOzl2J5Tmm4MY5awBIu//AI8fAb5napjzAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZe/dLi1CL90rzsvPzyPACFlOLawgAAAA==[0manonymous
+Building on master in workspace /var/lib/jenkins/workspace/mybackup
+[mybackup] $ /bin/sh -xe /tmp/jenkins5720760077015722890.sh
++ cd /var/lib
++ git init
+Reinitialized existing Git repository in /var/lib/.git/
++ git add jenkins
+warning: You ran 'git add' with neither '-A (--all)' or '--ignore-removal',
+whose behaviour will change in Git 2.0 with respect to paths you removed.
+Paths like 'jenkins/fingerprints/0e/74/f8e57bad91183439574b2e6c95a9.xml' that are
+removed from your working tree are ignored with this version of Git.
+
+* 'git add --ignore-removal <pathspec>', which is the current default,
+  ignores paths you removed from your working tree.
+
+* 'git add --all <pathspec>' will let you also record the removals.
+
+Run 'git status' to check the paths you removed from your working tree.
+
++ git commit -m 'adding files'
+[master 7178f5e] adding files
+ Committer: ctproject4 <root@ip-172-31-29-59.us-east-2.compute.internal>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 10 files changed, 78 insertions(+), 10 deletions(-)
+ create mode 100644 jenkins/jobs/mybackup/builds/5/build.xml
+ create mode 100644 jenkins/jobs/mybackup/builds/6/changelog.xml
+ create mode 100644 jenkins/jobs/mybackup/builds/6/log
++ git config --global user.email ctproject4@gmail.com
++ git remote add origin git@github.com:ctproject4/backup.git
+fatal: remote origin already exists.
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

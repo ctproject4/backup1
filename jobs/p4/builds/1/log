@@ -1,0 +1,34 @@
+Started by user [8mha:////4PVO/4BuXBVZOzl2J5Tmm4MY5awBIu//AI8fAb5napjzAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZe/dLi1CL90rzsvPzyPACFlOLawgAAAA==[0manonymous
+Building on master in workspace /var/lib/jenkins/workspace/p4
+ERROR: Unable to find build script at /var/lib/jenkins/workspace/p4/build.xml
+[WARNINGS] Parsing warnings in console log with parser PHP Runtime
+Skipping warnings blame since Git is the only supported SCM up to now.%n
+[CHECKSTYLE] Collecting checkstyle analysis files...
+[CHECKSTYLE] Searching for all files in /var/lib/jenkins/workspace/p4 that match the pattern build/logs/checkstyle.xml
+[CHECKSTYLE] No files found. Configuration error?
+Skipping warnings blame since Git is the only supported SCM up to now.%n
+[PMD] Collecting PMD analysis files...
+[PMD] Searching for all files in /var/lib/jenkins/workspace/p4 that match the pattern build/logs/pmd.xml
+[PMD] No files found. Configuration error?
+Skipping warnings blame since Git is the only supported SCM up to now.%n
+[DRY] Collecting duplicate code analysis files...
+[DRY] Searching for all files in /var/lib/jenkins/workspace/p4 that match the pattern build/logs/pmd-cpd.xml
+[DRY] No files found. Configuration error?
+Skipping warnings blame since Git is the only supported SCM up to now.%n
+Recording plot data
+Publishing Clover coverage report...
+Clover xml file does not exist in: /var/lib/jenkins/workspace/p4 called: build/logs/clover.xml and will not be copied to: /var/lib/jenkins/jobs/p4/builds/1/cloverphp/clover.xml
+Could not find 'build/coverage/build/logs/clover.xml'.  Did you generate the XML report for Clover?
+[htmlpublisher] Archiving HTML reports...
+[htmlpublisher] Archiving at BUILD level /var/lib/jenkins/workspace/p4/build/api to /var/lib/jenkins/jobs/p4/builds/1/htmlreports/API_20Documentation
+ERROR: Specified HTML directory '/var/lib/jenkins/workspace/p4/build/api' does not exist.
+[xUnit] [INFO] - Starting to record.
+[xUnit] [INFO] - Processing PHPUnit-3.x (default)
+[xUnit] [INFO] - [PHPUnit-3.x (default)] - No test report file(s) were found with the pattern 'build/logs/junit.xml' relative to '/var/lib/jenkins/workspace/p4' for the testing framework 'PHPUnit-3.x (default)'.  Did you enter a pattern relative to (and within) the workspace directory?  Did you generate the result report(s) for 'PHPUnit-3.x (default)'?
+[xUnit] [ERROR] - No test reports found for the metric 'PHPUnit' with the resolved pattern 'build/logs/junit.xml'. Configuration error?.
+[xUnit] [INFO] - Failing BUILD.
+[xUnit] [INFO] - There are errors when processing test results.
+[xUnit] [INFO] - Skipping tests recording.
+[xUnit] [INFO] - Stop build.
+[JDepend] JDepend plugin is ready
+[JDepend] Couldn't generate JDepend file at 'build/logs/jdepend.xml'java.nio.file.NoSuchFileException: /var/lib/jenkins/workspace/p4/build/logs/jdepend.xml

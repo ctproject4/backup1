@@ -1,0 +1,21 @@
+Started by user [8mha:////4PVO/4BuXBVZOzl2J5Tmm4MY5awBIu//AI8fAb5napjzAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZe/dLi1CL90rzsvPzyPACFlOLawgAAAA==[0manonymous
+Building on master in workspace /var/lib/jenkins/workspace/mybackup
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ctproject4/backup.git # timeout=10
+Fetching upstream changes from https://github.com/ctproject4/backup.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/ctproject4/backup.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision f1b2227eaba87a150a5c64543269d4b5b4107e30 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f1b2227eaba87a150a5c64543269d4b5b4107e30
+Commit message: "Add files via upload"
+ > git rev-list --no-walk f1b2227eaba87a150a5c64543269d4b5b4107e30 # timeout=10
+[mybackup] $ /bin/sh -xe /tmp/jenkins1776312174786298893.sh
++ cd /var/lib/jenkins/mybackup/workspace
+/tmp/jenkins1776312174786298893.sh: line 2: cd: /var/lib/jenkins/mybackup/workspace: No such file or directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

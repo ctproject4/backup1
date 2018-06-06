@@ -1,0 +1,9 @@
+Started by user [8mha:////4PVO/4BuXBVZOzl2J5Tmm4MY5awBIu//AI8fAb5napjzAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZe/dLi1CL90rzsvPzyPACFlOLawgAAAA==[0manonymous
+Building on master in workspace /var/lib/jenkins/workspace/mybackup2
+[mybackup2] $ /bin/sh -xe /tmp/jenkins6068880898084157651.sh
+++ ssh-keyscan -t rsa 18.188.3.211
+# 18.188.3.211:22 SSH-2.0-OpenSSH_7.4
++ ap = 18.188.3.211 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDOtmeAEpCo4c6QLAsXTK+dUUZCH+8sd3VSq0iOXIh5PwbZittbdwGkDEFZnXhFzS68jX173FGO9WH2jGBApxf8BeD+LAY9pFQO6q/7y76zxx9PafCg2jaPfoTJMy9aNaCm8aQOa4IyOCholEoT5eVITEoVx3mjhzam/FGihkW44UGUC2KMnp3S+8SpQIL51Y2dXH4QuGI2J3y+a6Tj/4qQhAbQ95mPU+MT+vGaO3iyr/UdfCuxYL9/sIayQASFb2eEomV/kNiZ7VUf+MydUFOrrOaggw2+Lu5CQgzIEBJlmz8gXX/+qTXt7iVaFXmtfmvk/aqnYf3vLiCWsgDzuy+F
+/tmp/jenkins6068880898084157651.sh: line 2: ap: command not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

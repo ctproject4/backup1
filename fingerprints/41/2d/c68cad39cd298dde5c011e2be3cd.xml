@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2018-06-04 08:15:58.641 UTC</timestamp>
+  <md5sum>412dc68cad39cd298dde5c011e2be3cd</md5sum>
+  <fileName>Credential id=2a50e5de-483a-462e-881d-d73f004ecaf2 name=jenkins</fileName>
+  <usages>
+    <entry>
+      <string>php</string>
+      <ranges>7-9</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

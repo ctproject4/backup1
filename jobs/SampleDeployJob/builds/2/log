@@ -1,0 +1,11 @@
+Started by upstream project "[8mha:////4OyMqGeT+VOwTXiBsFhdINBRd2tseFy48W6lCOcg4zEVAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JP3gxNyCnFSn0sycFC8gFwCmIcYpyQAAAA==[0mSampleBuildJob" build number [8mha:////4LoMcR8Dq47rsoxlCRmX80BUpk7ov0jOuWNZxjgqhA2QAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBlH9rPwk/eDE3IKcVKfSzJwULyDXCAAudTrQygAAAA==[0m2
+originally caused by:
+ Started by user [8mha:////4Lr5/h/tBYCUNO8tn1hCAqI+ao0MfE4g4qnEBd7Cd18UAAAAlB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYO/dLi1CL9xCwARX5Y4b0AAAA=[0majay
+Building remotely on [8mha:////4KcTQKQhwsUlwgaCnlKrhmzFFmODrS4qznRgpba5CVC9AAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/TygO40AumLp3sQAAAA=[0mnode2 (build_machine_centos) in workspace /var/lib/jenkins/workspace/SampleDeployJob
+[SampleDeployJob] $ /bin/sh -xe /tmp/jenkins8233762246160359548.sh
++ date
+Tue May 29 09:00:33 UTC 2018
++ echo 'Deploy job successfully'
+Deploy job successfully
+Triggering a new build of [8mha:////4HTpcH+yCTnVfL7P1gwRiWPRxgv0ZkiSd1Q1YFdXv52rAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JP3gxNyCnNSQ1OISLyAPAGSXXGvIAAAA[0mSampleTestJob
+Finished: SUCCESS

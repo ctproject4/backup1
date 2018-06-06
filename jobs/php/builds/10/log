@@ -1,0 +1,204 @@
+Started by user [8mha:////4PVO/4BuXBVZOzl2J5Tmm4MY5awBIu//AI8fAb5napjzAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZe/dLi1CL90rzsvPzyPACFlOLawgAAAA==[0manonymous
+Building on master in workspace /var/lib/jenkins/workspace/php
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ctproject4/php.git # timeout=10
+Fetching upstream changes from https://github.com/ctproject4/php.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/ctproject4/php.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 549e1e6e3f4511004891ae4f8166dcc900288a14 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 549e1e6e3f4511004891ae4f8166dcc900288a14
+Commit message: "Changes done in Pages"
+ > git rev-list --no-walk 549e1e6e3f4511004891ae4f8166dcc900288a14 # timeout=10
+[php] $ ant -file build.xml
+Buildfile: /var/lib/jenkins/workspace/php/build.xml
+
+[8mha:////4OME+/Cms4Xr2Ur+Jg2Q853nxXMkmVs+B8nc1X2//YzIAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0m[8mha:////4OME+/Cms4Xr2Ur+Jg2Q853nxXMkmVs+B8nc1X2//YzIAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mclean:
+   [delete] Deleting directory /var/lib/jenkins/workspace/php/build/api
+   [delete] Deleting directory /var/lib/jenkins/workspace/php/build/coverage
+   [delete] Deleting directory /var/lib/jenkins/workspace/php/build/logs
+   [delete] Deleting directory /var/lib/jenkins/workspace/php/build/pdepend
+   [delete] Deleting directory /var/lib/jenkins/workspace/php/build/phpdox
+
+[8mha:////4OME+/Cms4Xr2Ur+Jg2Q853nxXMkmVs+B8nc1X2//YzIAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0m[8mha:////4OME+/Cms4Xr2Ur+Jg2Q853nxXMkmVs+B8nc1X2//YzIAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mgenerate-code:
+     [exec] phpab 1.14.1 - Copyright (C) 2009 - 2018 by Arne Blankerts
+     [exec] 
+     [exec] Scanning directory output
+     [exec] 
+     [exec] Error while processing request:
+     [exec]  - Path 'output' does not exist.
+     [exec] Result: 1
+
+[8mha:////4OME+/Cms4Xr2Ur+Jg2Q853nxXMkmVs+B8nc1X2//YzIAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0m[8mha:////4OME+/Cms4Xr2Ur+Jg2Q853nxXMkmVs+B8nc1X2//YzIAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mprepare:
+    [mkdir] Created dir: /var/lib/jenkins/workspace/php/build/api
+    [mkdir] Created dir: /var/lib/jenkins/workspace/php/build/coverage
+    [mkdir] Created dir: /var/lib/jenkins/workspace/php/build/logs
+    [mkdir] Created dir: /var/lib/jenkins/workspace/php/build/pdepend
+
+[8mha:////4OME+/Cms4Xr2Ur+Jg2Q853nxXMkmVs+B8nc1X2//YzIAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0m[8mha:////4OME+/Cms4Xr2Ur+Jg2Q853nxXMkmVs+B8nc1X2//YzIAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mphploc:
+     [exec] phploc 2.0.4 by Sebastian Bergmann.
+     [exec] 
+     [exec] Directories                                          1
+     [exec] Files                                               51
+     [exec] 
+     [exec] Size
+     [exec]   Lines of Code (LOC)                             1559
+     [exec]   Comment Lines of Code (CLOC)                     198 (12.70%)
+     [exec]   Non-Comment Lines of Code (NCLOC)               1361 (87.30%)
+     [exec]   Logical Lines of Code (LLOC)                     471 (30.21%)
+     [exec]     Classes                                         87 (18.47%)
+     [exec]       Average Class Length                          14
+     [exec]       Average Method Length                          3
+     [exec]     Functions                                        4 (0.85%)
+     [exec]       Average Function Length                        0
+     [exec]     Not in classes or functions                    380 (80.68%)
+     [exec] 
+     [exec] Complexity
+     [exec]   Cyclomatic Complexity / LLOC                    0.21
+     [exec]   Cyclomatic Complexity / Number of Methods       2.27
+     [exec] 
+     [exec] Dependencies
+     [exec]   Global Accesses                                   52
+     [exec]     Global Constants                                 0 (0.00%)
+     [exec]     Global Variables                                 0 (0.00%)
+     [exec]     Super-Global Variables                          52 (100.00%)
+     [exec]   Attribute Accesses                                17
+     [exec]     Non-Static                                      17 (100.00%)
+     [exec]     Static                                           0 (0.00%)
+     [exec]   Method Calls                                      67
+     [exec]     Non-Static                                      63 (94.03%)
+     [exec]     Static                                           4 (5.97%)
+     [exec] 
+     [exec] Structure
+     [exec]   Namespaces                                         0
+     [exec]   Interfaces                                         0
+     [exec]   Traits                                             0
+     [exec]   Classes                                            6
+     [exec]     Abstract Classes                                 0 (0.00%)
+     [exec]     Concrete Classes                                 6 (100.00%)
+     [exec]   Methods                                           22
+     [exec]     Scope
+     [exec]       Non-Static Methods                            22 (100.00%)
+     [exec]       Static Methods                                 0 (0.00%)
+     [exec]     Visibility
+     [exec]       Public Method                                 22 (100.00%)
+     [exec]       Non-Public Methods                             0 (0.00%)
+     [exec]   Functions                                          0
+     [exec]     Named Functions                                  0 (0.00%)
+     [exec]     Anonymous Functions                              0 (0.00%)
+     [exec]   Constants                                          1
+     [exec]     Global Constants                                 0 (0.00%)
+     [exec]     Class Constants                                  1 (100.00%)
+     [exec] 
+     [exec] Tests
+     [exec]   Classes                                            1
+     [exec]   Methods                                            4
+
+[8mha:////4OME+/Cms4Xr2Ur+Jg2Q853nxXMkmVs+B8nc1X2//YzIAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0m[8mha:////4OME+/Cms4Xr2Ur+Jg2Q853nxXMkmVs+B8nc1X2//YzIAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mpdepend:
+     [exec] PHP_Depend 1.1.4 by Manuel Pichler
+     [exec] 
+     [exec] Parsing source files:
+     [exec] ..................................................              50
+     [exec] 
+     [exec] Executing Coupling-Analyzer:
+     [exec] .                                                               37
+     [exec] 
+     [exec] Executing CyclomaticComplexity-Analyzer:
+     [exec] .                                                               39
+     [exec] 
+     [exec] Executing Dependency-Analyzer:
+     [exec] .                                                               30
+     [exec] 
+     [exec] Executing Inheritance-Analyzer:
+     [exec]                                                                  7
+     [exec] 
+     [exec] Executing NodeCount-Analyzer:
+     [exec] .                                                               29
+     [exec] 
+     [exec] Executing NodeLoc-Analyzer:
+     [exec] .                                                               36
+     [exec] 
+     [exec] Generating pdepend log files, this may take a moment.
+     [exec] 
+     [exec] Time: 00:01; Memory: 13.00Mb
+
+[8mha:////4OME+/Cms4Xr2Ur+Jg2Q853nxXMkmVs+B8nc1X2//YzIAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0m[8mha:////4OME+/Cms4Xr2Ur+Jg2Q853nxXMkmVs+B8nc1X2//YzIAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mphpmd-ci:
+     [exec] Result: 2
+
+[8mha:////4OME+/Cms4Xr2Ur+Jg2Q853nxXMkmVs+B8nc1X2//YzIAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0m[8mha:////4OME+/Cms4Xr2Ur+Jg2Q853nxXMkmVs+B8nc1X2//YzIAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mphpcs-ci:
+     [exec] Result: 1
+
+[8mha:////4OME+/Cms4Xr2Ur+Jg2Q853nxXMkmVs+B8nc1X2//YzIAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0m[8mha:////4OME+/Cms4Xr2Ur+Jg2Q853nxXMkmVs+B8nc1X2//YzIAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mphpcpd:
+     [exec] phpcpd 2.0.0 by Sebastian Bergmann.
+     [exec] 
+     [exec] 0.00% duplicated lines out of 1535 total lines of code.
+     [exec] 
+     [exec] Time: 36 ms, Memory: 3.50Mb
+
+[8mha:////4OME+/Cms4Xr2Ur+Jg2Q853nxXMkmVs+B8nc1X2//YzIAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0m[8mha:////4OME+/Cms4Xr2Ur+Jg2Q853nxXMkmVs+B8nc1X2//YzIAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mphpunit:
+     [exec] PHPUnit 4.1.1 by Sebastian Bergmann.
+     [exec] 
+     [exec] Configuration read from /var/lib/jenkins/workspace/php/build/phpunit.xml
+     [exec] 
+     [exec] The Xdebug extension is not loaded. No code coverage will be generated.
+     [exec] 
+     [exec] ....
+     [exec] 
+     [exec] Time: 49 ms, Memory: 3.00Mb
+     [exec] 
+     [exec] OK (4 tests, 4 assertions)
+
+[8mha:////4OME+/Cms4Xr2Ur+Jg2Q853nxXMkmVs+B8nc1X2//YzIAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0m[8mha:////4OME+/Cms4Xr2Ur+Jg2Q853nxXMkmVs+B8nc1X2//YzIAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mphpdox:
+     [exec] phpDox 0.6.5 - Copyright (C) 2010 - 2018 by Arne Blankerts
+     [exec] 
+     [exec] [06.06.2018 - 04:37:11] Using config file './phpdox.xml'
+     [exec] [06.06.2018 - 04:37:11] Registered enricher 'build'
+     [exec] [06.06.2018 - 04:37:11] Registered enricher 'git'
+     [exec] [06.06.2018 - 04:37:11] Registered enricher 'checkstyle'
+     [exec] [06.06.2018 - 04:37:11] Registered enricher 'pmd'
+     [exec] [06.06.2018 - 04:37:11] Registered enricher 'phpunit'
+     [exec] [06.06.2018 - 04:37:11] Registered enricher 'phploc'
+     [exec] [06.06.2018 - 04:37:11] Registered output engine 'xml'
+     [exec] [06.06.2018 - 04:37:11] Registered output engine 'html'
+     [exec] [06.06.2018 - 04:37:11] Starting to process project 'Ecomm'
+     [exec] [06.06.2018 - 04:37:11] Starting collector
+     [exec] [06.06.2018 - 04:37:11] Scanning directory '../ecomm_project' for files to process
+     [exec] 
+     [exec] ..................................................	[50]
+     [exec] 
+     [exec] [06.06.2018 - 04:37:11] Saving results to directory 'phpdox'
+     [exec] [06.06.2018 - 04:37:11] Resolving inheritance
+     [exec] 
+     [exec] ......                                            	[6]
+     [exec] 
+     [exec] [06.06.2018 - 04:37:11] Collector process completed
+     [exec] 
+     [exec] [06.06.2018 - 04:37:11] Starting generator
+     [exec] [06.06.2018 - 04:37:11] Loading enrichers
+     [exec] [06.06.2018 - 04:37:11] Enricher Build Information initialized successfully
+     [exec] [06.06.2018 - 04:37:11] Enricher GIT information initialized successfully
+     [exec] [06.06.2018 - 04:37:11] Enricher PHPLoc xml initialized successfully
+     [exec] [06.06.2018 - 04:37:11] Enricher CheckStyle XML initialized successfully
+     [exec] [06.06.2018 - 04:37:11] Enricher PHPMessDetector XML initialized successfully
+     [exec] [06.06.2018 - 04:37:11] Starting event loop.
+     [exec] 
+     [exec] ................................................. 	[49]
+     [exec] 
+     [exec] [06.06.2018 - 04:37:11] Generator process completed
+     [exec] [06.06.2018 - 04:37:11] Processing project 'Ecomm' completed.
+     [exec] 
+     [exec] 
+     [exec] Time: 0 seconds, Memory: 6.75Mb
+     [exec] 
+
+[8mha:////4OME+/Cms4Xr2Ur+Jg2Q853nxXMkmVs+B8nc1X2//YzIAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0m[8mha:////4OME+/Cms4Xr2Ur+Jg2Q853nxXMkmVs+B8nc1X2//YzIAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mzip:
+
+[8mha:////4OME+/Cms4Xr2Ur+Jg2Q853nxXMkmVs+B8nc1X2//YzIAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0m[8mha:////4OME+/Cms4Xr2Ur+Jg2Q853nxXMkmVs+B8nc1X2//YzIAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mbuild:
+
+[8mha:////4M2nxGrDIoNFAAEv2uvpVE7ekzM1D3fvqYl3WQD57fYbAAAAYB+LCAAAAAAAAP9b85aBtbiIQSGjNKU4P0+vJLE4u1gvPjGvRM8xr8S/tCQ5PzfVL78ktUuDM0uMry+HiYGhoohBCqo8OT+vOD8nVc8ZQoMUMkAAI0hhAQAUXUdTXgAAAA==[0mBUILD SUCCESSFUL
+Total time: 6 seconds
+Finished: SUCCESS

@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2018-05-22 06:32:10.542 UTC</timestamp>
+  <md5sum>67fdff86d197e11581f94023c4345cb4</md5sum>
+  <fileName>Credential id=a0d5d926-23b1-45ac-bb89-e4a0422825a0 name=ahteshama/******</fileName>
+  <usages>
+    <entry>
+      <string>example1</string>
+      <ranges>1-26</ranges>
+    </entry>
+    <entry>
+      <string>assngmnt</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
